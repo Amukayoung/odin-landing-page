@@ -3,13 +3,12 @@ body{
 }
 .firstsectioncontainer{
     background-color: #1f2937;
-    padding: 0px 50px;
+    padding: 0px 50px 50px 50px;
 }
 .header{
     display: flex;
     justify-content: space-between;
-    
-    
+      
 }
 .menu{
     display: flex;
@@ -22,8 +21,45 @@ body{
     align-self: center;
     border-radius: 10px;
     text-align: center;
-    color: #fff;
+    color: #1f2937;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FFD700;
     padding: 10px;
 }
+.contentsection{
+    margin-top: 75px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leftside{
+    flex: 1;
+}
+.leftside > h2{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+.leftside > p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#hireachef {
+    background-color: #FFD700;
+    color: #1f2937;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px !important;
+}
+
+.rightside{
+    flex: 1;
+    
+}
+.rightside > img{
+    border-radius: 20px;
+}
+
