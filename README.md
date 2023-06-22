@@ -10,3 +10,6 @@ Created a landing page for the Odin Project assignment. The landing page utilize
 ## Screenshots
 
 ![](./images/Screen1.png)
+![](./images/Screen2.png)
+![](./images/Screen3.png)
+![](./images/Screen4.png)
