@@ -9,4 +9,7 @@ Created a landing page for the Odin Project assignment. The landing page utilize
 
 ## Screenshots
 
-![](https://github.com/Appletri/Appletri/blob/main/assets/landing-page-1.JPG)
+![](./images/Screen1.png)
+![](./images/Screen2.png)
+![](./images/Screen3.png)
+![](./images/Screen4.png)
