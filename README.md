@@ -1,6 +1,6 @@
 # Odin Project Landing Page Assignment
 ## Links
-- [Live hosted demo on GitHub pages!]([https://amukayoung.github.io/odin-landing-page/])
+- [Live hosted demo on GitHub pages!](https://amukayoung.github.io/odin-landing-page/)
 
 - [Link to the Assignment](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page)
 
