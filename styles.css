@@ -157,3 +157,9 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
 text-align: center;
 }
+
+.rotate :hover{
+    transform: rotate(45deg);
+    width: 200px;
+    height: 200px;
+}
