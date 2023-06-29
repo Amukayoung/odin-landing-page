@@ -1,21 +1,24 @@
-body{
-    margin: 0px;
-}
-.firstsectioncontainer{
+/* Desktop Styles */
+body {
+    margin: 0;
+  }
+  
+  .firstsectioncontainer {
     background-color: #1f2937;
-    padding: 0px 50px 50px 50px;
-}
-.header{
+    padding: 0 50px 50px 50px;
+  }
+  
+  .header {
     display: flex;
     justify-content: space-between;
-      
-}
-.menu{
+  }
+  
+  .menu {
     display: flex;
     gap: 20px;
-    width: 600px;
-}
-.menuItem{
+  }
+  
+  .menuItem {
     flex: 1;
     text-decoration: none;
     align-self: center;
@@ -23,114 +26,131 @@ body{
     text-align: center;
     color: #1f2937;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #FFD700;
+    background-color: #ffd700;
     padding: 10px;
-}
-.contentsection{
+  }
+  
+  .contentsection {
     margin-top: 75px;
     gap: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.leftside{
+  }
+  
+  .leftside {
     flex: 1;
-}
-.leftside > h2{
+  }
+  
+  .leftside > h2 {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 48px;
-}
-.leftside > p{
+  }
+  
+  .leftside > p {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-}
-#hireachef {
-    background-color: #FFD700;
+  }
+  
+  #hireachef {
+    background-color: #ffd700;
     color: #1f2937;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 20px !important;
-}
-
-.rightside{
+  }
+  
+  .rightside {
     flex: 1;
-    
-}
-.rightside > img{
+  }
+  
+  .rightside > img {
     border-radius: 20px;
-}
-.secondsection{
+    width: 100%;
+    height: auto;
+  }
+  
+  .secondsection {
     padding: 50px;
-}
-.secondsection > h2{
+  }
+  
+  .secondsection > h2 {
     font-size: 36px;
     font-family: Arial, Helvetica, sans-serif;
     color: #1f2937;
     text-align: center;
-}
-.currentchefs{
+  }
+  
+  .currentchefs {
     display: flex;
     flex-direction: row;
     gap: 20px;
     justify-content: space-around;
-}
-.currentchefs .chef > img{
+  }
+  
+  .currentchefs .chef > img {
     border-radius: 15px;
     border: 4px solid #ffd700;
-}
-.currentchefs .chef > h3{
+  }
+  
+  .currentchefs .chef > h3,
+  .currentchefs .chef > p {
     text-align: center;
-}
-.currentchefs .chef > p{
-    text-align: center;
-}
-.thirdsection{
+  }
+  
+  .thirdsection {
     padding: 50px;
     background-color: #e5e7eb;
-}
-.thirdsection > blockquote{
+  }
+  
+  .thirdsection > blockquote {
     font-size: 36px;
-    color:#1f2937
-}
-
-.thirdsection > h3{
-   text-align: right;
-   font-size: 30px;
-}
-.fourthsection{
+    color: #1f2937;
+  }
+  
+  .thirdsection > h3 {
+    text-align: right;
+    font-size: 30px;
+  }
+  
+  .fourthsection {
     padding: 75px 50px;
-}
-
-.goldencontainer{
+  }
+  
+  .goldencontainer {
     display: flex;
     gap: 50px;
-    background-color: #FFD700;
+    background-color: #ffd700;
     padding: 50px 30px;
     border-radius: 30px;
     box-shadow: 10px #1f2937;
-}
-.goldencontainer .calltoaction{
+  }
+  
+  .goldencontainer .calltoaction {
     flex: 4;
-}
-.goldencontainer .calltoaction >h2{
+  }
+  
+  .goldencontainer .calltoaction > h2 {
     color: #1f2937;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
-}
-
-.goldencontainer .calltoaction >p{
+  }
+  
+  .goldencontainer .calltoaction > p {
     color: #1f2937;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-}
-.goldencontainer .button{
+  }
+  
+  .goldencontainer .button {
     flex: 1;
     align-self: center;
-}
-#buttoncall {
+  }
+  
+  #buttoncall {
     padding: 15px;
     border: 2px solid #1f2937;
     color: #1f2937;
@@ -138,28 +158,113 @@ body{
     font-size: 22px;
     text-decoration: none;
     border-radius: 10px;
-}
-.footer{
+  }
+  
+  .footer {
     background-color: #1f2937;
     padding: 20px 50px;
-}
-.footer > p{
+  }
+  
+  .footer > p {
     color: #fff;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
-text-align: center;
-}
-
-.footer > p > a{
-    color: #FFD700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .footer > p > a {
+    color: #ffd700;
     text-decoration: none;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
-text-align: center;
-}
-
-.rotate :hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .rotate:hover {
     transform: rotate(45deg);
     width: 200px;
     height: 200px;
-}
+  }
+  
+  
+  /* Tablet Styles */
+  @media screen and (max-width: 1024px) {
+    .contentsection {
+      flex-direction: column;
+    }
+    
+    .rightside {
+      order: -1;
+    }
+  }
+  
+  
+  /* Mobile Styles */
+  @media screen and (max-width: 768px) {
+    .firstsectioncontainer {
+      padding: 0 20px 20px 20px;
+      
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .header > img {
+        margin-top: 30px;
+    }
+    .menu {
+        margin-top: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .menu > a {
+      flex-basis: 50%;
+    }
+    
+    .contentsection,
+    .secondsection,
+    .thirdsection,
+    .fourthsection {
+      padding: 30px;
+    }
+    
+    .secondsection > h2,
+    .thirdsection > h3 {
+      font-size: 24px;
+    }
+    
+    .leftside > h2,
+    .leftside > p,
+    .goldencontainer .calltoaction > h2,
+    .goldencontainer .calltoaction > p {
+      font-size: 16px;
+    }
+    
+    .rightside > img {
+      border-radius: 10px;
+      width: 100%;
+    }
+    
+    .currentchefs {
+      flex-direction: column;
+    }
+    
+    .currentchefs .chef {
+      margin-bottom: 20px;
+    }
+    
+    .currentchefs .chef > img {
+      width: 100%;
+      height: auto;
+      max-width: 200px;
+      max-height: 200px;
+    }
+    
+    .footer > p {
+      font-size: 16px;
+    }
+  }
+  
+  
