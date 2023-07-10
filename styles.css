@@ -234,8 +234,10 @@ body {
     }
     
     .secondsection > h2,
+    .thirdsection > blockquote,
     .thirdsection > h3 {
       font-size: 24px;
+      text-align: justify;
     }
     
     .leftside > h2,
@@ -256,6 +258,7 @@ body {
     
     .currentchefs .chef {
       margin-bottom: 20px;
+      align-self: center;
     }
     
     .currentchefs .chef > img {
