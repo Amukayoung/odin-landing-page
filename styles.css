@@ -240,6 +240,15 @@ body {
       text-align: justify;
     }
     
+    .goldencontainer{
+      display: flex;
+      flex-direction: column;
+    }
+    .goldencontainer .calltoaction {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
     .leftside > h2,
     .leftside > p,
     .goldencontainer .calltoaction > h2,
