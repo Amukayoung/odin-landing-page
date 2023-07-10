@@ -55,12 +55,13 @@ body {
   }
   
   #hireachef {
+    position: relative;
+    top: 20px;
     background-color: #ffd700;
     color: #1f2937;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-top: 20px !important;
   }
   
   .rightside {
@@ -196,6 +197,11 @@ body {
     .rightside {
       order: -1;
     }
+
+    .currentchefs {
+      display: flex;
+      flex-wrap: wrap;
+    }
   }
   
   
@@ -262,7 +268,8 @@ body {
     }
     
     .currentchefs {
-      flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
     }
     
     .currentchefs .chef {
