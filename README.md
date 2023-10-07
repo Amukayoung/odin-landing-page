@@ -1,4 +1,4 @@
-# Odin Project Landing Page Assignment
+# Chef Hiring App Landing Page
 ## Links
 - [Live hosted demo on GitHub pages!](https://amukayoung.github.io/odin-landing-page/)
 
