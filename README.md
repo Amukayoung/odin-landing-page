@@ -5,7 +5,7 @@
 - [Link to the Assignment](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page)
 
 ## About
-Created a landing page for the Odin Project assignment. The landing page utilizes flex to display elements on the page
+Created a landing page for the Odin Project assignment. The landing page utilizes flex to display responsive elements throughout the page
 
 ## Screenshots
 
